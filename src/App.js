@@ -37,7 +37,7 @@ const App = () =>{
   const [expenses, setExpenses] = useState(DUMMY_EXPENSE);
 
   // useEffect(()=>{
-  //   fetch('').then(            ----> make this fetchData function
+  //   fetch('').then(            ----> make this fetchData function   async await
   //     response => {
   //       return response.json();
   //     }
